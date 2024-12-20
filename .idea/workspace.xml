@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b5625436-f65b-4701-92b2-f61122f958a5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/elements/ElementsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/elements/ElementsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/Utility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +42,7 @@
     "TestNG.JavaScriptTest.testScrollingToElement.executor": "Run",
     "TestNG.LinksPageTest.tesLinks.executor": "Run",
     "TestNG.RadioButtonTest.testRadioButton.executor": "Run",
+    "TestNG.SelectDropDownTest.testMultiSelectDropDown.executor": "Run",
     "TestNG.WebTablesTest.testWebTable.executor": "Run",
     "TestNG.demo.qa.tests.tests.executor": "Run",
     "TestNG.demo.qa.tests.tests.forms.executor": "Run",
@@ -50,7 +52,7 @@
     "onboarding.tips.debug.path": "C:/Users/kalbo/IdeaProjects/SeleniumScroll/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.LinksPageTest.tesLinks">
+  <component name="RunManager" selected="TestNG.SelectDropDownTest.testMultiSelectDropDown">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="SeleniumWebElements-POM" />
       <method v="2">
@@ -100,6 +102,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SelectDropDownTest.testMultiSelectDropDown" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebElements-POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.qa.tests.tests.widgets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.widgets" />
+      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.widgets.SelectDropDownTest" />
+      <option name="METHOD_NAME" value="testMultiSelectDropDown" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebTablesTest.testWebTable" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebElements-POM" />
       <extension name="coverage">
@@ -134,29 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo.qa.tests.tests.forms" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWebElements-POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.qa.tests.tests.forms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.forms" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SelectDropDownTest.testMultiSelectDropDown" />
         <item itemvalue="TestNG.LinksPageTest.tesLinks" />
         <item itemvalue="TestNG.WebTablesTest.testWebTable" />
         <item itemvalue="TestNG.demo.qa.tests.tests" />
         <item itemvalue="TestNG.CheckboxTest.isReadingCheckboxSelected" />
-        <item itemvalue="TestNG.demo.qa.tests.tests.forms" />
       </list>
     </recent_temporary>
   </component>
