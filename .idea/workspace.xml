@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b5625436-f65b-4701-92b2-f61122f958a5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/elements/WebTablesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/elements/WebTablesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/elements/ElementsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/elements/ElementsPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +39,7 @@
     "TestNG.<default>.executor": "Run",
     "TestNG.CheckboxTest.isReadingCheckboxSelected.executor": "Run",
     "TestNG.JavaScriptTest.testScrollingToElement.executor": "Run",
+    "TestNG.LinksPageTest.tesLinks.executor": "Run",
     "TestNG.RadioButtonTest.testRadioButton.executor": "Run",
     "TestNG.WebTablesTest.testWebTable.executor": "Run",
     "TestNG.demo.qa.tests.tests.executor": "Run",
@@ -49,7 +50,7 @@
     "onboarding.tips.debug.path": "C:/Users/kalbo/IdeaProjects/SeleniumScroll/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.WebTablesTest.testWebTable">
+  <component name="RunManager" selected="TestNG.LinksPageTest.tesLinks">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="SeleniumWebElements-POM" />
       <method v="2">
@@ -81,17 +82,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioButtonTest.testRadioButton" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LinksPageTest.tesLinks" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebElements-POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.qa.tests.tests.forms.*" />
+          <option name="PATTERN" value="demo.qa.tests.tests.elements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.forms" />
-      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.forms.RadioButtonTest" />
-      <option name="METHOD_NAME" value="testRadioButton" />
+      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.elements" />
+      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.elements.LinksPageTest" />
+      <option name="METHOD_NAME" value="tesLinks" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -151,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LinksPageTest.tesLinks" />
         <item itemvalue="TestNG.WebTablesTest.testWebTable" />
         <item itemvalue="TestNG.demo.qa.tests.tests" />
         <item itemvalue="TestNG.CheckboxTest.isReadingCheckboxSelected" />
         <item itemvalue="TestNG.demo.qa.tests.tests.forms" />
-        <item itemvalue="TestNG.RadioButtonTest.testRadioButton" />
       </list>
     </recent_temporary>
   </component>
