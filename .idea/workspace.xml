@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b5625436-f65b-4701-92b2-f61122f958a5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/widgets/SelectMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/widgets/SelectMenuPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/widgets/WidgetsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/widgets/WidgetsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/forms/PracticeFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/forms/PracticeFormPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demo/qa/tests/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/qa/tests/base/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +38,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.<default>.executor": "Run",
+    "TestNG.CaptureFailedScreenshotTest.executor": "Run",
+    "TestNG.CaptureFailedScreenshotTest.testClickingSubmitButtonWithoutJavaScriptExecutor.executor": "Run",
     "TestNG.CheckboxTest.isReadingCheckboxSelected.executor": "Run",
     "TestNG.DatePickerTest.testDatePicker.executor": "Run",
     "TestNG.DatePickerTest.testSelectingDate.executor": "Run",
@@ -55,7 +57,7 @@
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.DatePickerTest.testSelectingDate">
+  <component name="RunManager" selected="TestNG.CaptureFailedScreenshotTest.testClickingSubmitButtonWithoutJavaScriptExecutor">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="SeleniumWebElements-POM" />
       <method v="2">
@@ -69,17 +71,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatePickerTest.testDatePicker" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CaptureFailedScreenshotTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebElements-POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.qa.tests.tests.widgets.*" />
+          <option name="PATTERN" value="demo.qa.tests.tests.forms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.widgets" />
-      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.widgets.DatePickerTest" />
-      <option name="METHOD_NAME" value="testDatePicker" />
+      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.forms" />
+      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.forms.CaptureFailedScreenshotTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CaptureFailedScreenshotTest.testClickingSubmitButtonWithoutJavaScriptExecutor" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebElements-POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.qa.tests.tests.forms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.forms" />
+      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.forms.CaptureFailedScreenshotTest" />
+      <option name="METHOD_NAME" value="testClickingSubmitButtonWithoutJavaScriptExecutor" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -105,54 +124,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinksPageTest.tesLinks" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebElements-POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.qa.tests.tests.elements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.elements" />
-      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.elements.LinksPageTest" />
-      <option name="METHOD_NAME" value="tesLinks" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectDropDownTest.testMultiSelectDropDown" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="demo.qa.tests.tests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebElements-POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.qa.tests.tests.widgets.*" />
+          <option name="PATTERN" value="demo.qa.tests.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.widgets" />
-      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.widgets.SelectDropDownTest" />
-      <option name="METHOD_NAME" value="testMultiSelectDropDown" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebTablesTest.testWebTable" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWebElements-POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.qa.tests.tests.elements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.elements" />
-      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.elements.WebTablesTest" />
-      <option name="METHOD_NAME" value="testWebTable" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="demo.qa.tests.tests" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
@@ -161,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CaptureFailedScreenshotTest.testClickingSubmitButtonWithoutJavaScriptExecutor" />
+        <item itemvalue="TestNG.CaptureFailedScreenshotTest" />
+        <item itemvalue="TestNG.demo.qa.tests.tests" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
         <item itemvalue="TestNG.DatePickerTest.testSelectingDate" />
-        <item itemvalue="TestNG.SelectDropDownTest.testMultiSelectDropDown" />
-        <item itemvalue="TestNG.DatePickerTest.testDatePicker" />
-        <item itemvalue="TestNG.LinksPageTest.tesLinks" />
-        <item itemvalue="TestNG.WebTablesTest.testWebTable" />
       </list>
     </recent_temporary>
   </component>
