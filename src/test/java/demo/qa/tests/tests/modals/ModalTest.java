@@ -12,7 +12,6 @@ public class ModalTest extends BaseTest {
         ModalDialogsPage modalDialogsPage = homePage.
                 goToAlertsFramesWindowsCard().
                 clickModalDialogsMenuItem();
-
         modalDialogsPage.clickSmallModalButton();
         String actualText = modalDialogsPage.getSmallModalText();
         Assert.assertTrue(actualText.contains("small modal"),"\n The Message Does Not Contain 'small modal' \n");
