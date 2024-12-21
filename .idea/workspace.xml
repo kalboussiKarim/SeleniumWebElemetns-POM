@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b5625436-f65b-4701-92b2-f61122f958a5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/screenshots/(2024-12-21_testPromptAlert.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/alerts_frames_windows/Alerts_Frames_WindowsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/alerts_frames_windows/Alerts_Frames_WindowsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/alerts_frames_windows/FramesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/alerts_frames_windows/FramesPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utilities/SwitchToUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/SwitchToUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demo/qa/tests/tests/frames/FramesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/qa/tests/tests/frames/FramesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,9 @@
     "TestNG.CheckboxTest.isReadingCheckboxSelected.executor": "Run",
     "TestNG.DatePickerTest.testDatePicker.executor": "Run",
     "TestNG.DatePickerTest.testSelectingDate.executor": "Run",
+    "TestNG.FramesTest.executor": "Run",
     "TestNG.FramesTest.testFramesBigBox.executor": "Run",
+    "TestNG.FramesTest.testFramesSmallBox.executor": "Run",
     "TestNG.JavaScriptTest.testScrollingToElement.executor": "Run",
     "TestNG.LinksPageTest.tesLinks.executor": "Run",
     "TestNG.ModalTest.ds.executor": "Run",
@@ -58,6 +60,7 @@
     "TestNG.WebTablesTest.testWebTable.executor": "Run",
     "TestNG.demo.qa.tests.tests.executor": "Run",
     "TestNG.demo.qa.tests.tests.forms.executor": "Run",
+    "TestNG.demo.qa.tests.tests.frames.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/kalbo/IdeaProjects/Selenium",
@@ -65,7 +68,7 @@
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.FramesTest.testFramesBigBox">
+  <component name="RunManager" selected="TestNG.FramesTest">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="SeleniumWebElements-POM" />
       <method v="2">
@@ -75,42 +78,6 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="SeleniumWebElements-POM" />
       <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlertsTest.testConfirmationAlert" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWebElements-POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.qa.tests.tests.alerts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.alerts" />
-      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.alerts.AlertsTest" />
-      <option name="METHOD_NAME" value="testConfirmationAlert" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlertsTest.testInformationAlert" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWebElements-POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.qa.tests.tests.alerts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.alerts" />
-      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.alerts.AlertsTest" />
-      <option name="METHOD_NAME" value="testInformationAlert" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,6 +94,23 @@
       <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.alerts.AlertsTest" />
       <option name="METHOD_NAME" value="testPromptAlert" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FramesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebElements-POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.qa.tests.tests.frames.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.frames" />
+      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.frames.FramesTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -151,15 +135,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo.qa.tests.tests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FramesTest.testFramesSmallBox" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebElements-POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.qa.tests.tests.*" />
+          <option name="PATTERN" value="demo.qa.tests.tests.frames.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="demo.qa.tests.tests" />
+      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.frames" />
+      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.frames.FramesTest" />
+      <option name="METHOD_NAME" value="testFramesSmallBox" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo.qa.tests.tests.frames" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebElements-POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.qa.tests.tests.frames.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.frames" />
       <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
@@ -169,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FramesTest" />
+        <item itemvalue="TestNG.FramesTest.testFramesSmallBox" />
         <item itemvalue="TestNG.FramesTest.testFramesBigBox" />
+        <item itemvalue="TestNG.demo.qa.tests.tests.frames" />
         <item itemvalue="TestNG.AlertsTest.testPromptAlert" />
-        <item itemvalue="TestNG.AlertsTest.testConfirmationAlert" />
-        <item itemvalue="TestNG.demo.qa.tests.tests" />
-        <item itemvalue="TestNG.AlertsTest.testInformationAlert" />
       </list>
     </recent_temporary>
   </component>
