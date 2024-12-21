@@ -6,9 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="b5625436-f65b-4701-92b2-f61122f958a5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/screenshots/(2024-12-21_tesLinks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/screenshots/(2024-12-21_testClickingSubmitButtonWithoutJavaScriptExecutor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/screenshots/(2024-12-21_testConfirmationAlert.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/screenshots/(2024-12-21_testInformationAlert.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/screenshots/(2024-12-21_testModalDialog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/screenshots/(2024-12-21_testMultiSelectDropDown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/screenshots/(2024-12-21_testWebTable.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/alerts_frames_windows/AlertsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/alerts_frames_windows/AlertsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utilities/SwitchToUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/SwitchToUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/demo/qa/tests/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/qa/tests/base/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/demo/qa/tests/tests/alerts/AlertsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/qa/tests/tests/alerts/AlertsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +49,7 @@
     "TestNG.AlertsTest.dsds.executor": "Run",
     "TestNG.AlertsTest.testConfirmationAlert.executor": "Run",
     "TestNG.AlertsTest.testInformationAlert.executor": "Run",
+    "TestNG.AlertsTest.testPromptAlert.executor": "Run",
     "TestNG.CaptureFailedScreenshotTest.executor": "Run",
     "TestNG.CaptureFailedScreenshotTest.testClickingSubmitButtonWithoutJavaScriptExecutor.executor": "Run",
     "TestNG.CheckboxTest.isReadingCheckboxSelected.executor": "Run",
@@ -64,7 +71,7 @@
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.demo.qa.tests.tests">
+  <component name="RunManager" selected="TestNG.AlertsTest.testPromptAlert">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="SeleniumWebElements-POM" />
       <method v="2">
@@ -132,17 +139,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModalTest.testModalDialog" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AlertsTest.testPromptAlert" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebElements-POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.qa.tests.tests.modals.*" />
+          <option name="PATTERN" value="demo.qa.tests.tests.alerts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.modals" />
-      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.modals.ModalTest" />
-      <option name="METHOD_NAME" value="testModalDialog" />
+      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.alerts" />
+      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.alerts.AlertsTest" />
+      <option name="METHOD_NAME" value="testPromptAlert" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -168,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.demo.qa.tests.tests" />
+        <item itemvalue="TestNG.AlertsTest.testPromptAlert" />
         <item itemvalue="TestNG.AlertsTest.testConfirmationAlert" />
+        <item itemvalue="TestNG.demo.qa.tests.tests" />
         <item itemvalue="TestNG.AlertsTest.testInformationAlert" />
         <item itemvalue="TestNG.AlertsTest.dsds" />
-        <item itemvalue="TestNG.ModalTest.testModalDialog" />
       </list>
     </recent_temporary>
   </component>

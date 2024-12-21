@@ -28,7 +28,17 @@ public class AlertsTest extends BaseTest {
         String actualConfirmationResult = alertsPage.getConfirmationResult();
         Assert.assertTrue(actualConfirmationResult.contains(expectedConfirmationResult));
         Assert.assertEquals(actualConfirmationResult,expectedConfirmationResult,"\n You Did Not Select Cancel \n");
+    }
 
+    public void testPromptAlert(){
+        String alertText = "Selinum in java with Karim";
+        AlertsPage alertsPage = homePage.goToAlertsFramesWindowsCard().clickAlertsMenuItem();
+        alertsPage.clickPromptAlertButton();
+        setAlertText(alertText);
+        acceptAlert();
+        String expectedConfirmationResult ="You entered "+alertText;
+        String actualConfirmationResult = alertsPage.getPromptAlertResult();
+        Assert.assertEquals(actualConfirmationResult,expectedConfirmationResult,"\n Actual & Expected Results Do Not Match \n");
     }
 
 
