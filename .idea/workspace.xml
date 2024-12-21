@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b5625436-f65b-4701-92b2-f61122f958a5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/alerts_frames_windows/Alerts_Frames_WindowsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/alerts_frames_windows/Alerts_Frames_WindowsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/demo/qa/tests/tests/modals/ModalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/qa/tests/tests/modals/ModalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/alerts_frames_windows/AlertsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/alerts_frames_windows/AlertsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/SwitchToUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/SwitchToUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demo/qa/tests/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/qa/tests/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demo/qa/tests/tests/alerts/AlertsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/qa/tests/tests/alerts/AlertsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +41,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.<default>.executor": "Run",
     "TestNG.AlertsTest.dsds.executor": "Run",
+    "TestNG.AlertsTest.testConfirmationAlert.executor": "Run",
     "TestNG.AlertsTest.testInformationAlert.executor": "Run",
     "TestNG.CaptureFailedScreenshotTest.executor": "Run",
     "TestNG.CaptureFailedScreenshotTest.testClickingSubmitButtonWithoutJavaScriptExecutor.executor": "Run",
@@ -61,7 +64,7 @@
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.AlertsTest.testInformationAlert">
+  <component name="RunManager" selected="TestNG.demo.qa.tests.tests">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="SeleniumWebElements-POM" />
       <method v="2">
@@ -93,6 +96,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AlertsTest.testConfirmationAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebElements-POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.qa.tests.tests.alerts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.alerts" />
+      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.alerts.AlertsTest" />
+      <option name="METHOD_NAME" value="testConfirmationAlert" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AlertsTest.testInformationAlert" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebElements-POM" />
       <extension name="coverage">
@@ -104,42 +125,6 @@
       <option name="PACKAGE_NAME" value="demo.qa.tests.tests.alerts" />
       <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.alerts.AlertsTest" />
       <option name="METHOD_NAME" value="testInformationAlert" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CaptureFailedScreenshotTest.testClickingSubmitButtonWithoutJavaScriptExecutor" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWebElements-POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.qa.tests.tests.forms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.forms" />
-      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.forms.CaptureFailedScreenshotTest" />
-      <option name="METHOD_NAME" value="testClickingSubmitButtonWithoutJavaScriptExecutor" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ModalTest.ds" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWebElements-POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.qa.tests.tests.modals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.modals" />
-      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.modals.ModalTest" />
-      <option name="METHOD_NAME" value="ds" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -165,13 +150,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="demo.qa.tests.tests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebElements-POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.qa.tests.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.qa.tests.tests" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.demo.qa.tests.tests" />
+        <item itemvalue="TestNG.AlertsTest.testConfirmationAlert" />
         <item itemvalue="TestNG.AlertsTest.testInformationAlert" />
         <item itemvalue="TestNG.AlertsTest.dsds" />
         <item itemvalue="TestNG.ModalTest.testModalDialog" />
-        <item itemvalue="TestNG.ModalTest.ds" />
-        <item itemvalue="TestNG.CaptureFailedScreenshotTest.testClickingSubmitButtonWithoutJavaScriptExecutor" />
       </list>
     </recent_temporary>
   </component>

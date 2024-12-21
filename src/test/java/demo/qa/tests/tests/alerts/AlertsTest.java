@@ -5,12 +5,12 @@ import demo.qa.tests.base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static utilities.SwitchToUtility.acceptAlert;
-import static utilities.SwitchToUtility.getAlertText;
+import static utilities.SwitchToUtility.*;
 
+@Test
 public class AlertsTest extends BaseTest {
 
-    @Test
+
     public void testInformationAlert(){
         String expectedAlertText = "You clicked a button";
         AlertsPage alertsPage = homePage.goToAlertsFramesWindowsCard().clickAlertsMenuItem();
@@ -18,4 +18,18 @@ public class AlertsTest extends BaseTest {
         Assert.assertEquals(expectedAlertText,getAlertText(),"\n Actual & Expected Messages Do Not Match \n");
         acceptAlert();  //we need to accept it otherwise we have no longer access to the other elements.
     }
+
+    public void testConfirmationAlert(){
+
+        AlertsPage alertsPage = homePage.goToAlertsFramesWindowsCard().clickAlertsMenuItem();
+        alertsPage.clickConfirmationAlertButton();
+        dismissAlert();
+        String expectedConfirmationResult ="You selected Cancel";
+        String actualConfirmationResult = alertsPage.getConfirmationResult();
+        Assert.assertTrue(actualConfirmationResult.contains(expectedConfirmationResult));
+        Assert.assertEquals(actualConfirmationResult,expectedConfirmationResult,"\n You Did Not Select Cancel \n");
+
+    }
+
+
 }
