@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b5625436-f65b-4701-92b2-f61122f958a5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/forms/PracticeFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/forms/PracticeFormPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/demo/qa/tests/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/qa/tests/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/HomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.CaptureFailedScreenshotTest.testClickingSubmitButtonWithoutJavaScriptExecutor">
+  <component name="RunManager" selected="TestNG.ModalTest.testModalDialog">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="SeleniumWebElements-POM" />
       <method v="2">
@@ -106,17 +105,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatePickerTest.testSelectingDate" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ModalTest.ds" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebElements-POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.qa.tests.tests.widgets.*" />
+          <option name="PATTERN" value="demo.qa.tests.tests.modals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.widgets" />
-      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.widgets.DatePickerTest" />
-      <option name="METHOD_NAME" value="testSelectingDate" />
+      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.modals" />
+      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.modals.ModalTest" />
+      <option name="METHOD_NAME" value="ds" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -124,10 +123,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ModalTest.testModalDialog" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebElements-POM" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.qa.tests.tests.modals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.modals" />
+      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.modals.ModalTest" />
+      <option name="METHOD_NAME" value="testModalDialog" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -152,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ModalTest.testModalDialog" />
+        <item itemvalue="TestNG.ModalTest.ds" />
         <item itemvalue="TestNG.CaptureFailedScreenshotTest.testClickingSubmitButtonWithoutJavaScriptExecutor" />
         <item itemvalue="TestNG.CaptureFailedScreenshotTest" />
         <item itemvalue="TestNG.demo.qa.tests.tests" />
-        <item itemvalue="TestNG.&lt;default&gt;" />
-        <item itemvalue="TestNG.DatePickerTest.testSelectingDate" />
       </list>
     </recent_temporary>
   </component>
