@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b5625436-f65b-4701-92b2-f61122f958a5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/widgets/SelectMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/widgets/SelectMenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/widgets/WidgetsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/widgets/WidgetsPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,20 +39,23 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.<default>.executor": "Run",
     "TestNG.CheckboxTest.isReadingCheckboxSelected.executor": "Run",
+    "TestNG.DatePickerTest.testDatePicker.executor": "Run",
+    "TestNG.DatePickerTest.testSelectingDate.executor": "Run",
     "TestNG.JavaScriptTest.testScrollingToElement.executor": "Run",
     "TestNG.LinksPageTest.tesLinks.executor": "Run",
     "TestNG.RadioButtonTest.testRadioButton.executor": "Run",
-    "TestNG.SelectDropDownTest.testMultiSelectDropDown.executor": "Run",
+    "TestNG.SelectDropDownTest.testMultiSelectDropDown.executor": "Debug",
     "TestNG.WebTablesTest.testWebTable.executor": "Run",
     "TestNG.demo.qa.tests.tests.executor": "Run",
     "TestNG.demo.qa.tests.tests.forms.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/kalbo/IdeaProjects/Selenium",
-    "onboarding.tips.debug.path": "C:/Users/kalbo/IdeaProjects/SeleniumScroll/src/main/java/org/example/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/kalbo/IdeaProjects/SeleniumScroll/src/main/java/org/example/Main.java",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.SelectDropDownTest.testMultiSelectDropDown">
+  <component name="RunManager" selected="TestNG.DatePickerTest.testSelectingDate">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="SeleniumWebElements-POM" />
       <method v="2">
@@ -66,17 +69,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckboxTest.isReadingCheckboxSelected" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DatePickerTest.testDatePicker" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebElements-POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.qa.tests.tests.forms.*" />
+          <option name="PATTERN" value="demo.qa.tests.tests.widgets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.forms" />
-      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.forms.CheckboxTest" />
-      <option name="METHOD_NAME" value="isReadingCheckboxSelected" />
+      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.widgets" />
+      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.widgets.DatePickerTest" />
+      <option name="METHOD_NAME" value="testDatePicker" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatePickerTest.testSelectingDate" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebElements-POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.qa.tests.tests.widgets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.widgets" />
+      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.widgets.DatePickerTest" />
+      <option name="METHOD_NAME" value="testSelectingDate" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -138,29 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo.qa.tests.tests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWebElements-POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.qa.tests.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo.qa.tests.tests" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DatePickerTest.testSelectingDate" />
         <item itemvalue="TestNG.SelectDropDownTest.testMultiSelectDropDown" />
+        <item itemvalue="TestNG.DatePickerTest.testDatePicker" />
         <item itemvalue="TestNG.LinksPageTest.tesLinks" />
         <item itemvalue="TestNG.WebTablesTest.testWebTable" />
-        <item itemvalue="TestNG.demo.qa.tests.tests" />
-        <item itemvalue="TestNG.CheckboxTest.isReadingCheckboxSelected" />
       </list>
     </recent_temporary>
   </component>
