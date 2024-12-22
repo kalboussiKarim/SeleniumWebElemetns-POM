@@ -51,6 +51,7 @@
     "TestNG.FramesTest.executor": "Run",
     "TestNG.FramesTest.testFramesBigBox.executor": "Run",
     "TestNG.FramesTest.testFramesSmallBox.executor": "Run",
+    "TestNG.FramesTest.testFramesSmallBoxElement.executor": "Run",
     "TestNG.JavaScriptTest.testScrollingToElement.executor": "Run",
     "TestNG.LinksPageTest.tesLinks.executor": "Run",
     "TestNG.ModalTest.ds.executor": "Run",
@@ -68,7 +69,7 @@
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.FramesTest">
+  <component name="RunManager" selected="TestNG.FramesTest.testFramesSmallBoxElement">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="SeleniumWebElements-POM" />
       <method v="2">
@@ -78,24 +79,6 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="SeleniumWebElements-POM" />
       <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlertsTest.testPromptAlert" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWebElements-POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.qa.tests.tests.alerts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.alerts" />
-      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.alerts.AlertsTest" />
-      <option name="METHOD_NAME" value="testPromptAlert" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,6 +136,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FramesTest.testFramesSmallBoxElement" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebElements-POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.qa.tests.tests.frames.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.frames" />
+      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.frames.FramesTest" />
+      <option name="METHOD_NAME" value="testFramesSmallBoxElement" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="demo.qa.tests.tests.frames" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebElements-POM" />
       <extension name="coverage">
@@ -171,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FramesTest.testFramesSmallBoxElement" />
         <item itemvalue="TestNG.FramesTest" />
         <item itemvalue="TestNG.FramesTest.testFramesSmallBox" />
         <item itemvalue="TestNG.FramesTest.testFramesBigBox" />
         <item itemvalue="TestNG.demo.qa.tests.tests.frames" />
-        <item itemvalue="TestNG.AlertsTest.testPromptAlert" />
       </list>
     </recent_temporary>
   </component>

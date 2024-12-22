@@ -28,4 +28,14 @@ public class FramesTest extends BaseTest {
         String expectedHeaderText = "Frames";
         Assert.assertEquals(actualHeaderText,expectedHeaderText,"\n Actual & Expected Header Text Do Not Match \n");
     }
+
+    public void testFramesSmallBoxElement(){
+        FramesPage framesPage = homePage.goToAlertsFramesWindowsCard().clickFramesMenuItem();
+        String actualSmallBoxText = framesPage.getTextInSmallFrameElement();
+        String expectedSmallBoxText = "This is a sample page";
+        Assert.assertEquals(actualSmallBoxText, expectedSmallBoxText,"\n Actual & Expected Text Do Not Match\n");
+        String actualHeaderText = framesPage.getHeaderFramesText();
+        String expectedHeaderText = "Frames";
+        Assert.assertEquals(actualHeaderText,expectedHeaderText,"\n Actual & Expected Header Text Do Not Match \n");
+    }
 }
