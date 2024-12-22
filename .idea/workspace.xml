@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b5625436-f65b-4701-92b2-f61122f958a5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/screenshots/(2024-12-21_testFramesBigBox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/screenshots/(2024-12-21_testFramesSmallBox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/screenshots/(2024-12-22_testFramesSmallBox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/alerts_frames_windows/Alerts_Frames_WindowsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/alerts_frames_windows/Alerts_Frames_WindowsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/SwitchToUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/SwitchToUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/demo/qa/tests/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/qa/tests/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/demo/qa/tests/tests/frames/FramesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/qa/tests/tests/frames/FramesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/elements/ElementsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/elements/ElementsPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +46,7 @@
     "TestNG.CheckboxTest.isReadingCheckboxSelected.executor": "Run",
     "TestNG.DatePickerTest.testDatePicker.executor": "Run",
     "TestNG.DatePickerTest.testSelectingDate.executor": "Run",
+    "TestNG.DynamicWaitTest.testVisibleAfterButtonText.executor": "Run",
     "TestNG.FramesTest.executor": "Run",
     "TestNG.FramesTest.testFramesBigBox.executor": "Run",
     "TestNG.FramesTest.testFramesSmallBox.executor": "Run",
@@ -74,7 +69,25 @@
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.WindowsTest.testNewWindow">
+  <component name="RunManager" selected="TestNG.DynamicWaitTest.testVisibleAfterButtonText">
+    <configuration name="DynamicWaitTest.testVisibleAfterButtonText" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebElements-POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.qa.tests.tests.dynamic_wait.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.dynamic_wait" />
+      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.dynamic_wait.DynamicWaitTest" />
+      <option name="METHOD_NAME" value="testVisibleAfterButtonText" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FramesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebElements-POM" />
       <extension name="coverage">
@@ -86,24 +99,6 @@
       <option name="PACKAGE_NAME" value="demo.qa.tests.tests.frames" />
       <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.frames.FramesTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FramesTest.testFramesBigBox" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWebElements-POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.qa.tests.tests.frames.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.frames" />
-      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.frames.FramesTest" />
-      <option name="METHOD_NAME" value="testFramesBigBox" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -166,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DynamicWaitTest.testVisibleAfterButtonText" />
         <item itemvalue="TestNG.WindowsTest.testNewWindow" />
         <item itemvalue="TestNG.FramesTest" />
         <item itemvalue="TestNG.FramesTest.testFramesSmallBoxElement" />
         <item itemvalue="TestNG.FramesTest.testFramesSmallBox" />
-        <item itemvalue="TestNG.FramesTest.testFramesBigBox" />
       </list>
     </recent_temporary>
   </component>
