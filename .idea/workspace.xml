@@ -6,8 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b5625436-f65b-4701-92b2-f61122f958a5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/alerts_frames_windows/FramesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/alerts_frames_windows/FramesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/screenshots/(2024-12-21_testFramesBigBox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/screenshots/(2024-12-21_testFramesSmallBox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/screenshots/(2024-12-22_testFramesSmallBox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/alerts_frames_windows/Alerts_Frames_WindowsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/alerts_frames_windows/Alerts_Frames_WindowsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utilities/SwitchToUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/SwitchToUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demo/qa/tests/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/qa/tests/base/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/demo/qa/tests/tests/frames/FramesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/qa/tests/tests/frames/FramesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +63,7 @@
     "TestNG.RadioButtonTest.testRadioButton.executor": "Run",
     "TestNG.SelectDropDownTest.testMultiSelectDropDown.executor": "Debug",
     "TestNG.WebTablesTest.testWebTable.executor": "Run",
+    "TestNG.WindowsTest.testNewWindow.executor": "Run",
     "TestNG.demo.qa.tests.tests.executor": "Run",
     "TestNG.demo.qa.tests.tests.forms.executor": "Run",
     "TestNG.demo.qa.tests.tests.frames.executor": "Run",
@@ -69,20 +74,7 @@
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.FramesTest.testFramesSmallBoxElement">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="SeleniumWebElements-POM" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="SeleniumWebElements-POM" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.WindowsTest.testNewWindow">
     <configuration name="FramesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebElements-POM" />
       <extension name="coverage">
@@ -154,16 +146,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo.qa.tests.tests.frames" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WindowsTest.testNewWindow" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebElements-POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.qa.tests.tests.frames.*" />
+          <option name="PATTERN" value="demo.qa.tests.tests.windows.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.frames" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.windows" />
+      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.windows.WindowsTest" />
+      <option name="METHOD_NAME" value="testNewWindow" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -172,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FramesTest.testFramesSmallBoxElement" />
+        <item itemvalue="TestNG.WindowsTest.testNewWindow" />
         <item itemvalue="TestNG.FramesTest" />
+        <item itemvalue="TestNG.FramesTest.testFramesSmallBoxElement" />
         <item itemvalue="TestNG.FramesTest.testFramesSmallBox" />
         <item itemvalue="TestNG.FramesTest.testFramesBigBox" />
-        <item itemvalue="TestNG.demo.qa.tests.tests.frames" />
       </list>
     </recent_temporary>
   </component>

@@ -8,7 +8,6 @@ import org.testng.annotations.Test;
 @Test
 public class FramesTest extends BaseTest {
 
-
     public void testFramesBigBox(){
         FramesPage framesPage = homePage.goToAlertsFramesWindowsCard().clickFramesMenuItem();
         String actualBigBoxText = framesPage.getTextInBigFrame();

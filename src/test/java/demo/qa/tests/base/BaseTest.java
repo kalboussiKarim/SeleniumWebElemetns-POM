@@ -46,7 +46,7 @@ public class BaseTest {
 
     @AfterMethod
     public void takeFailedResultScreenShot(ITestResult testResult){
-        if(testResult.getStatus() ==ITestResult.FAILURE){
+        if(testResult.getStatus() == ITestResult.FAILURE){
             TakesScreenshot screenshot = (TakesScreenshot) driver;
             File source = screenshot.getScreenshotAs(OutputType.FILE);
             File destination = new File(System.getProperty("user.dir") +

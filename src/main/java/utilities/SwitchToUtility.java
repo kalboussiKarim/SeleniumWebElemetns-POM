@@ -40,4 +40,8 @@ public class SwitchToUtility extends Utility{
     public static void switchToFrameElement(WebElement element){
         switchTo().frame(element);
     }
+
+    public static void switchToWindow(String handle){
+        switchTo().window(handle);
+    }
 }
