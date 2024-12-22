@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b5625436-f65b-4701-92b2-f61122f958a5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/elements/ElementsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/elements/ElementsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/elements/DynamicPropertiesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/elements/DynamicPropertiesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/widgets/WidgetsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/widgets/WidgetsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/WaitUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/WaitUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demo/qa/tests/tests/dynamic_wait/DynamicWaitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/qa/tests/tests/dynamic_wait/DynamicWaitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +49,7 @@
     "TestNG.CheckboxTest.isReadingCheckboxSelected.executor": "Run",
     "TestNG.DatePickerTest.testDatePicker.executor": "Run",
     "TestNG.DatePickerTest.testSelectingDate.executor": "Run",
+    "TestNG.DynamicWaitTest.testProgressBar.executor": "Run",
     "TestNG.DynamicWaitTest.testVisibleAfterButtonText.executor": "Run",
     "TestNG.FramesTest.executor": "Run",
     "TestNG.FramesTest.testFramesBigBox.executor": "Run",
@@ -69,7 +73,25 @@
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.DynamicWaitTest.testVisibleAfterButtonText">
+  <component name="RunManager" selected="TestNG.DynamicWaitTest.testProgressBar">
+    <configuration name="DynamicWaitTest.testProgressBar" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebElements-POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.qa.tests.tests.dynamic_wait.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.dynamic_wait" />
+      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.dynamic_wait.DynamicWaitTest" />
+      <option name="METHOD_NAME" value="testProgressBar" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DynamicWaitTest.testVisibleAfterButtonText" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebElements-POM" />
       <extension name="coverage">
@@ -99,24 +121,6 @@
       <option name="PACKAGE_NAME" value="demo.qa.tests.tests.frames" />
       <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.frames.FramesTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FramesTest.testFramesSmallBox" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWebElements-POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.qa.tests.tests.frames.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.frames" />
-      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.frames.FramesTest" />
-      <option name="METHOD_NAME" value="testFramesSmallBox" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -161,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DynamicWaitTest.testProgressBar" />
         <item itemvalue="TestNG.DynamicWaitTest.testVisibleAfterButtonText" />
         <item itemvalue="TestNG.WindowsTest.testNewWindow" />
         <item itemvalue="TestNG.FramesTest" />
         <item itemvalue="TestNG.FramesTest.testFramesSmallBoxElement" />
-        <item itemvalue="TestNG.FramesTest.testFramesSmallBox" />
       </list>
     </recent_temporary>
   </component>

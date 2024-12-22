@@ -10,7 +10,7 @@ public class DynamicPropertiesPage extends ElementsPage{
     private By visibleAfterButton = By.id("visibleAfter");
 
     public String getVisibleAfterButtonText(){
-        //explicitWaitUntilVisible(5,visibleAfterButton);
+        explicitWaitUntilVisible(5,visibleAfterButton);
         return getText(visibleAfterButton);
     }
 
