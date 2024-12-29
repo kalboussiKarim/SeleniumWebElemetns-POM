@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b5625436-f65b-4701-92b2-f61122f958a5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/screenshots/(2024-12-22_testSlider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/elements/ElementsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/elements/ElementsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/ActionsUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/ActionsUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/elements/WebTablesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/elements/WebTablesPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,84 +33,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.<default>.executor": "Run",
-    "TestNG.AlertsTest.dsds.executor": "Run",
-    "TestNG.AlertsTest.testConfirmationAlert.executor": "Run",
-    "TestNG.AlertsTest.testInformationAlert.executor": "Run",
-    "TestNG.AlertsTest.testPromptAlert.executor": "Run",
-    "TestNG.CaptureFailedScreenshotTest.executor": "Run",
-    "TestNG.CaptureFailedScreenshotTest.testClickingSubmitButtonWithoutJavaScriptExecutor.executor": "Run",
-    "TestNG.CheckboxTest.isReadingCheckboxSelected.executor": "Run",
-    "TestNG.DatePickerTest.testDatePicker.executor": "Run",
-    "TestNG.DatePickerTest.testSelectingDate.executor": "Run",
-    "TestNG.DynamicWaitTest.executor": "Run",
-    "TestNG.DynamicWaitTest.testProgressBar.executor": "Run",
-    "TestNG.DynamicWaitTest.testVisibleAfterButtonText.executor": "Run",
-    "TestNG.FramesTest.executor": "Run",
-    "TestNG.FramesTest.testFramesBigBox.executor": "Run",
-    "TestNG.FramesTest.testFramesSmallBox.executor": "Run",
-    "TestNG.FramesTest.testFramesSmallBoxElement.executor": "Run",
-    "TestNG.JavaScriptTest.testScrollingToElement.executor": "Run",
-    "TestNG.KeyboardTest.executor": "Run",
-    "TestNG.KeyboardTest.testKeyboard.executor": "Debug",
-    "TestNG.LinksPageTest.tesLinks.executor": "Run",
-    "TestNG.ModalTest.ds.executor": "Run",
-    "TestNG.ModalTest.testModalDialog.executor": "Run",
-    "TestNG.RadioButtonTest.testRadioButton.executor": "Run",
-    "TestNG.SelectDropDownTest.testMultiSelectDropDown.executor": "Debug",
-    "TestNG.SliderTest.testSlider.executor": "Run",
-    "TestNG.WebTablesTest.testWebTable.executor": "Run",
-    "TestNG.WindowsTest.testNewWindow.executor": "Run",
-    "TestNG.demo.qa.tests.tests.executor": "Run",
-    "TestNG.demo.qa.tests.tests.forms.executor": "Run",
-    "TestNG.demo.qa.tests.tests.frames.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/kalbo/IdeaProjects/Selenium",
-    "onboarding.tips.debug.path": "C:/Users/kalbo/IdeaProjects/SeleniumScroll/src/main/java/org/example/Main.java",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.&lt;default&gt;.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AlertsTest.dsds.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AlertsTest.testConfirmationAlert.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AlertsTest.testInformationAlert.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AlertsTest.testPromptAlert.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CaptureFailedScreenshotTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CaptureFailedScreenshotTest.testClickingSubmitButtonWithoutJavaScriptExecutor.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CheckboxTest.isReadingCheckboxSelected.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DatePickerTest.testDatePicker.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DatePickerTest.testSelectingDate.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DynamicWaitTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DynamicWaitTest.testProgressBar.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DynamicWaitTest.testVisibleAfterButtonText.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FramesTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FramesTest.testFramesBigBox.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FramesTest.testFramesSmallBox.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FramesTest.testFramesSmallBoxElement.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.JavaScriptTest.testScrollingToElement.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.KeyboardTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.KeyboardTest.testKeyboard.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.LinksPageTest.tesLinks.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ModalTest.ds.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ModalTest.testModalDialog.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RadioButtonTest.testRadioButton.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SelectDropDownTest.testMultiSelectDropDown.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.SliderTest.testSlider.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.WebTablesTest.testWebTable.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.WindowsTest.testNewWindow.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.demo.qa.tests.tests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.demo.qa.tests.tests.forms.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.demo.qa.tests.tests.frames.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kalbo/IdeaProjects/SeleniumScroll&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/kalbo/IdeaProjects/SeleniumScroll/src/main/java/org/example/Main.java&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.KeyboardTest.testKeyboard">
-    <configuration name="DynamicWaitTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWebElements-POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.qa.tests.tests.dynamic_wait.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.dynamic_wait" />
-      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.dynamic_wait.DynamicWaitTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DynamicWaitTest.testProgressBar" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWebElements-POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.qa.tests.tests.dynamic_wait.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.dynamic_wait" />
-      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.dynamic_wait.DynamicWaitTest" />
-      <option name="METHOD_NAME" value="testProgressBar" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="TestNG.LinksPageTest.tesLinks">
     <configuration name="KeyboardTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebElements-POM" />
       <extension name="coverage">
@@ -147,6 +111,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LinksPageTest.tesLinks" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebElements-POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.qa.tests.tests.elements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.elements" />
+      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.elements.LinksPageTest" />
+      <option name="METHOD_NAME" value="tesLinks" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SliderTest.testSlider" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebElements-POM" />
       <extension name="coverage">
@@ -165,13 +147,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebTablesTest.testWebTable" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebElements-POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.qa.tests.tests.elements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo.qa.tests.tests.elements" />
+      <option name="MAIN_CLASS_NAME" value="demo.qa.tests.tests.elements.WebTablesTest" />
+      <option name="METHOD_NAME" value="testWebTable" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LinksPageTest.tesLinks" />
+        <item itemvalue="TestNG.WebTablesTest.testWebTable" />
         <item itemvalue="TestNG.KeyboardTest.testKeyboard" />
         <item itemvalue="TestNG.KeyboardTest" />
         <item itemvalue="TestNG.SliderTest.testSlider" />
-        <item itemvalue="TestNG.DynamicWaitTest" />
-        <item itemvalue="TestNG.DynamicWaitTest.testProgressBar" />
       </list>
     </recent_temporary>
   </component>
@@ -193,11 +193,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/demo/qa/tests/tests/interactions/KeyboardTest.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
